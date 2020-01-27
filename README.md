@@ -12,31 +12,31 @@
 
 Será necessário criar uma API que permita realizar cadastro, edição, exclusão e visulaizações de um cliente, abaixo os requisitos minimo:
   - Campos mínimos:
-  -- Nome
-  -- Sobrenome
-  -- E-mail;
-  -- Data de nascimento
-  -- Data de criação
-  -- Data da última atualização;
+    - Nome
+    - Sobrenome
+    - E-mail;
+    - Data de nascimento
+    - Data de criação
+    - Data da última atualização;
   - Um ou mais endereços associado (Lista de endereço);
   - Um ou mais telefones associado (Lista de telefone);
   - Cliente pessoa física:
-  -- Com CPF válido;
+    - Com CPF válido;
   - Cliente pessoa juridica:
-  -- Com CNPJ válido;
+    - Com CNPJ válido;
 
 ### Tecnologia permitida
 
   - Back-end:
-  -- .NET Framework 4.5 ou superior;
-  -- .NET Core 2.1 ou superior;
+    - .NET Framework 4.5 ou superior;
+    - .NET Core 2.1 ou superior;
   - Front-end:
-  -- Angular 4 ou superior;
-  -- VueJS 2x
+    - Angular 4 ou superior;
+    - VueJS 2x
   - Banco de dados:
-  -- SQL Server;
-  -- Oracle;
-  -- MongoDB;
+    - SQL Server;
+    - Oracle;
+    - MongoDB;
 
 ### Padrões desejavéis
 
