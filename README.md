@@ -10,22 +10,23 @@
 
 ### Regra de negócio
 
-Será necessário criar uma API que permita realizar cadastro, edição, exclusão e visulaizações de um cliente, abaixo os requisitos minimo:
+Será necessário criar uma API que permita realizar cadastro, edição, exclusão e visualização de um cliente, seguem abaixo os requisitos mínimos:
+
   - Campos mínimos:
-    - Nome
-    - Sobrenome
+    - Nome;
+    - Sobrenome;
     - E-mail;
-    - Data de nascimento
-    - Data de criação
+    - Data de nascimento;
+    - Data de criação;
     - Data da última atualização;
-  - Um ou mais endereços associado (Lista de endereço);
-  - Um ou mais telefones associado (Lista de telefone);
+  - Um ou mais endereços associado (Lista de endereços);
+  - Um ou mais telefones associado (Lista de telefones);
   - Cliente pessoa física:
     - Com CPF válido;
   - Cliente pessoa juridica:
     - Com CNPJ válido;
 
-### Tecnologia permitida
+### Tecnologias permitidas
 
   - Back-end:
     - .NET Core 3.1 ou superior;
@@ -42,6 +43,6 @@ Será necessário criar uma API que permita realizar cadastro, edição, exclus�
 
 ### Documentação
 
-Será necessário criar markdown expicando como execultar o seu projeto em nossa máquina, como a ser execultado, porta que deve ser configurado e etc, seguiremos seu tutorial para roda e testa sua aplicação, também incluir nessa documentação bibliotecas utilizadas, versão dos framework utilizado e etc.
+Será necessário criar markdown expicando como execultar o seu projeto em nossa máquina, como ser executado, porta que deve ser configurado e etc, seguiremos seu tutorial para rodar e testar sua aplicação. Inclua também nessa documentação bibliotecas utilizadas, versão dos framework utilizado e etc.
 
 Para ajudar a criar um markdown recomendo ser utilizar [Dillinger](https://dillinger.io/)
