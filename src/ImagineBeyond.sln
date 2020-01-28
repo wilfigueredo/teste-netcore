@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagineBeyond.Domain", "Ima
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagineBeyond.UI.Web", "ImagineBeyond.UI.Web\ImagineBeyond.UI.Web.csproj", "{0E350B6B-CAF9-41E1-9FF7-CE530C8828C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagineBeyond.Repository", "ImagineBeyond.Repository\ImagineBeyond.Repository.csproj", "{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{0E350B6B-CAF9-41E1-9FF7-CE530C8828C9}.Release|x64.Build.0 = Release|Any CPU
 		{0E350B6B-CAF9-41E1-9FF7-CE530C8828C9}.Release|x86.ActiveCfg = Release|Any CPU
 		{0E350B6B-CAF9-41E1-9FF7-CE530C8828C9}.Release|x86.Build.0 = Release|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Debug|x64.Build.0 = Debug|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Debug|x86.Build.0 = Debug|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Release|x64.ActiveCfg = Release|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Release|x64.Build.0 = Release|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Release|x86.ActiveCfg = Release|Any CPU
+		{17EC8D8C-C0BB-4A1B-95CB-4A56965DF71C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
