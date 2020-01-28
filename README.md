@@ -2,11 +2,13 @@
 
 ### Camadas necessárias (backend)
 
-  - WebApi      (Necessário implementar)
-  - Application 
-  - Domain      (Aplicar validação de e-mail)
-  - Repository  (Necessário implementar)
-  - Test        (Necessário Implementar)
+| Camadas   |      Ações      |
+|----------|:-------------:|
+| WebApi | Necessário implementar |
+| Application | Finalizar CustomerAppService |
+| Domain | Validar e-mail |
+| Repository | Necessário implementar |
+| Test | Necessário implementar |
 
 ### Regra de negócio
 
@@ -23,12 +25,30 @@ Será necessário criar uma API que permita realizar cadastro, edição, exclus�
 
 ### Requisitos necessários e comandos 
 
-   - .NET Core 3.1 ou superior;
+   - .NET Core 3.1 ou superior [Download](https://dotnet.microsoft.com/download);
+   - Visual Studio 2019 Community ou Visual Studio Code [Download](https://visualstudio.microsoft.com/pt-br/)
 
+-----------------------------------------------------------------------------------------------------------------
+
+ - Visual Studio 2019 Community
+
+Abra a solutions src/ImagineBeyond.sln
+
+ - Visual Studio Code
 Abra o terminal de sua preferencia na pasta src:
-    dotnet build - buildar o projeto
-    dotnet run   - Iniciar o projeto na porta localhost://5001 (terminal dentro da pasta src/ImagineBeyond.UI.Web)
-    dotnet test  - Roda seus teste (terminal dentro da pasta src/ImagineBeyond.Test)
+  
+  buildar o projeto
+  ```sh
+  $ dotnet build 
+  ```
+  Iniciar o projeto na porta localhost://5001 (terminal dentro da pasta src/ImagineBeyond.UI.Web)
+  ```sh
+  $ dotnet run 
+  ```
+  Rode seus testes (terminal dentro da pasta src/ImagineBeyond.Test)
+  ```sh
+  $ dotnet test 
+  ```
     
 Mais detalhe sobre, você encontra na documentação oficial da [Microsfot](https://docs.microsoft.com/pt-br/dotnet/core/tools/?tabs=netcore2x)
     
@@ -38,13 +58,16 @@ Mais detalhe sobre, você encontra na documentação oficial da [Microsfot](http
  - Banco de dados:
    - SQL Server;
    - Oracle;
+   - MySQL;
    - MongoDB;
 
-### Padrões desejavéis
+### Necessário
 
  - Injeção de dependência (DI)
  - WebApi (Back-end)
  - Utilização de ValueObject
+ - Teste unitário
+ - AutoMapper [Descrição](https://automapper.org/)
 
 ### Documentação
 
