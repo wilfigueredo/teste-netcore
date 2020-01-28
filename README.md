@@ -2,11 +2,11 @@
 
 ### Camadas necessárias (backend)
 
-  - WebApi
-  - Application
-  - Domain
-  - Repository
-  - Test
+  - WebApi      (Necessário implementar)
+  - Application 
+  - Domain      (Aplicar validação de e-mail)
+  - Repository  (Necessário implementar)
+  - Test        (Necessário Implementar)
 
 ### Regra de negócio
 
@@ -16,24 +16,29 @@ Será necessário criar uma API que permita realizar cadastro, edição, exclus�
     - Nome;
     - Sobrenome;
     - E-mail;
+        -  Validar o e-mail
     - Data de nascimento;
     - Data de criação;
     - Data da última atualização;
-  - Um ou mais endereços associado (Lista de endereços);
-  - Um ou mais telefones associado (Lista de telefones);
-  - Cliente pessoa física:
-    - Com CPF válido;
-  - Cliente pessoa juridica:
-    - Com CNPJ válido;
 
-### Tecnologias permitidas
+### Requisitos necessários e comandos 
 
-  - Back-end:
-    - .NET Core 3.1 ou superior;
-  - Banco de dados:
-    - SQL Server;
-    - Oracle;
-    - MongoDB;
+   - .NET Core 3.1 ou superior;
+
+Abra o terminal de sua preferencia na pasta src:
+    dotnet build - buildar o projeto
+    dotnet run   - Iniciar o projeto na porta localhost://5001 (terminal dentro da pasta src/ImagineBeyond.UI.Web)
+    dotnet test  - Roda seus teste (terminal dentro da pasta src/ImagineBeyond.Test)
+    
+Mais detalhe sobre, você encontra na documentação oficial da [Microsfot](https://docs.microsoft.com/pt-br/dotnet/core/tools/?tabs=netcore2x)
+    
+  
+### Banco de dados (aceitos)
+
+ - Banco de dados:
+   - SQL Server;
+   - Oracle;
+   - MongoDB;
 
 ### Padrões desejavéis
 
