@@ -28,11 +28,7 @@ Será necessário criar uma API que permita realizar cadastro, edição, exclus�
 ### Tecnologia permitida
 
   - Back-end:
-    - .NET Framework 4.5 ou superior;
-    - .NET Core 2.1 ou superior;
-  - Front-end:
-    - Angular 4 ou superior;
-    - VueJS 2x
+    - .NET Core 3.1 ou superior;
   - Banco de dados:
     - SQL Server;
     - Oracle;
