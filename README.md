@@ -32,10 +32,10 @@ Será necessário criar uma API que permita realizar cadastro, edição, exclus�
 
  - Visual Studio 2019 Community
 
-Abra a solutions src/ImagineBeyond.sln
+Abra a solution src/ImagineBeyond.sln
 
  - Visual Studio Code
-Abra o terminal de sua preferencia na pasta src:
+Abra o terminal de sua preferencia na pasta src/
   
   buildar o projeto
   ```sh
@@ -50,7 +50,7 @@ Abra o terminal de sua preferencia na pasta src:
   $ dotnet test 
   ```
     
-Mais detalhe sobre, você encontra na documentação oficial da [Microsfot](https://docs.microsoft.com/pt-br/dotnet/core/tools/?tabs=netcore2x)
+Mais detalhe sobre, você encontra na documentação oficial da [Microsoft](https://docs.microsoft.com/pt-br/dotnet/core/tools/?tabs=netcore2x)
     
   
 ### Banco de dados (aceitos)
