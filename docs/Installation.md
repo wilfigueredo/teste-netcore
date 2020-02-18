@@ -1,8 +1,8 @@
 # Imagine Beyond
 
-# PRÉ-REQUISITO 
-1 - Ter a versão do 3.1.1 do Asp Net Core devidamente instalada.
-2 - Ter a versão 2019 do visual studio devidamente instalado
+## PRÉ-REQUISITO 
+1.  Ter a versão do 3.1.1 do Asp Net Core devidamente instalada.
+2. Ter a versão 2019 do visual studio devidamente instalado.
 
 ## Instruções para projeto API
 1. Clone o projeto para sua maquina. 
