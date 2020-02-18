@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using ImagineBeyound.CrossCutting.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+
 
 namespace ImagineBeyond.UI.Web
 {
@@ -25,7 +29,20 @@ namespace ImagineBeyond.UI.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+                       
             services.AddControllers();
+
+
+            // Options para configurações customizadas
+            services.AddOptions();
+                        
+            services.AddControllers()
+                .AddNewtonsoftJson();
+
+            // AutoMapper            
+            services.AddAutoMapper(new Type[] { typeof(ImagineBeyond.Application.AutoMapper.AutoMapperConfiguration) });
+            // Register DI
+            RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +63,11 @@ namespace ImagineBeyond.UI.Web
             {
                 endpoints.MapControllers();
             });
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            NativeInjectorBootStrapper.RegisterServices(services);
         }
     }
 }

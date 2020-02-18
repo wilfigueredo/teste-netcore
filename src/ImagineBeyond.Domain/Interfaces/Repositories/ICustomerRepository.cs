@@ -16,5 +16,7 @@ namespace ImagineBeyond.Domain.Interfaces.Repositories
         Task<IEnumerable<CustomerEntity>> Get();
 
         Task<CustomerEntity> GetById(Guid id);
+
+        Task<CustomerEntity> GetByEmail(string email);
     }
 }
